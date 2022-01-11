@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class ContactManager {
-    private ArrayList<Contacts> contactList;
+    private final ArrayList<Contacts> contactList;
     private final Scanner scanner = new Scanner(System.in);
     private final Validate validate = new Validate();
     public static final String PATH_NAME = "src/File/contacts.csv";
